@@ -24,6 +24,7 @@ array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
 array.insert(1,[","])
+array.insert(2,[","])
 result = array.join(" and ")
 
 h

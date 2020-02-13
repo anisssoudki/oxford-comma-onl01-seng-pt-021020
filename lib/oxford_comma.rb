@@ -27,7 +27,7 @@ array.insert(1,[","])
 array.insert(2,[","])
 result = array.join(" and ")
 
-h
+
 p result
 
 return result

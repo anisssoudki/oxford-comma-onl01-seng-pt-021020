@@ -15,5 +15,3 @@ return result
 
 end
 
-oxford_comma(array)
-end

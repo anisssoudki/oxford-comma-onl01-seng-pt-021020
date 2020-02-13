@@ -7,7 +7,7 @@ def oxford_comma(array)
  array.pop
 
 array.pop
-array.push(", okra, kohlrabi")
+array.push(", okra, and kohlrabi")
 
 result = array.join
 return result

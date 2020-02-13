@@ -20,3 +20,10 @@
 
 # oxford_comma(array)
 
+array = ["fiddleheads","okra","kohlrabi"]
+
+def oxford_comma(array)
+
+result = array.join
+return result
+end

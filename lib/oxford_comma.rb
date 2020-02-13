@@ -28,3 +28,4 @@ result = array.join(" and ")
 p result
 return result
 end
+oxford_comma(array)

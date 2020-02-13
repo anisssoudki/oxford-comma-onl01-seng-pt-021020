@@ -3,15 +3,19 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
-
- array.pop
-
-array.pop
-array.push(", okra, and kohlrabi")
-
-result = array.join
+array << "and"
+puts array
+array[2],  array[3] = array[3], array[2]
+p array
+result = array.join(", ")
+arr2 = result.split("")
 puts result
-
-
+p arr2
+puts arr2.length
+arr2.delete_at(22)
+p arr2
+puts arr2.length
+p arr2.join
 end
 
+oxford_comma(array)

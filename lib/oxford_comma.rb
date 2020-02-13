@@ -10,7 +10,7 @@ array.pop
 array.push(", okra, and kohlrabi")
 
 result = array.join
-return result
+puts result
 
 
 end

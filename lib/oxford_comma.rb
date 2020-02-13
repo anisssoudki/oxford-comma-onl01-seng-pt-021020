@@ -26,6 +26,7 @@ def oxford_comma(array)
 
 result = array.join(" and ")
 result << (",")
+p result.length
 p result
 
 return result

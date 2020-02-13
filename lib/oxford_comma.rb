@@ -16,6 +16,7 @@ arr2.delete_at(22)
 p arr2
 puts arr2.length
 p arr2.join
+return arr2
 end
 
 oxford_comma(array)

@@ -26,7 +26,7 @@ def oxford_comma(array)
 
 result = array.join(" and ")
 result.insert()
-p result.length
+h
 p result
 
 return result
